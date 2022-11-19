@@ -49,3 +49,7 @@ I still can't account for the aircraft type, which I would've really liked to do
 is what is. We move. Now we need to calculate/estimate fuel burn for the 200000+ records
 we have. Ideally, this information should be given, since this is the target label, but 
 it's not available online. So I gotta do what I gotta do. 
+
+ok, makin progress now, modified the dataset to my needs. This dataset could now be passed 
+to a script, can be cleaned and processed, and then be used to train a linear regression, 
+as I've been trying to do for quite some while now. Lesssgo! 
