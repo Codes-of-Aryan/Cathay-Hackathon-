@@ -43,5 +43,9 @@ The us is god-sent. thank god for the us bureau of stats. The only website, that
 somewhat has the data that might be usable here. And there's tonnes of data as well. 
 This is good, this is really really good. Thank fuck. That's relief. There's still 10
 hours left in the hackathon, I should be able to use some assumptions, clean/preprocess
-data, build a model, and visualise that data as well. This is the hope, I needed. 
+data, build a model, and visualise that data as well. This is the hope I needed. 
 
+I still can't account for the aircraft type, which I would've really liked to do, but it 
+is what is. We move. Now we need to calculate/estimate fuel burn for the 200000+ records
+we have. Ideally, this information should be given, since this is the target label, but 
+it's not available online. So I gotta do what I gotta do. 
