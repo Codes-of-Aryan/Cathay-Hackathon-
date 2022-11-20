@@ -1,6 +1,6 @@
 # Cathay-Hackathon
-Training a Machine Leaning Model to get accurate Carbon Emissions per passenger per flight. <br> 
-Since I'm the only coder in the team, I'm gonna be using the README as a way to think out loud.
+PLEASE IGNORE THIS FILE. THIS IS ONLY A PERSONAL ACCOUNT OF MY EXPERIENCE CODING IN THIS HACKATHON <br> 
+Since I'm the only coder in the team, I'm gonna be using this log file as a way to think out loud.
 Think of this as a progress log, as I descend into madness. This is more for future me to look 
 into my mistakes and analyze my methods than anything. 
 
@@ -32,7 +32,6 @@ Only option I now have is to find a way to create a dummy set that somewhat achi
 the dataset I wanted to find. I'll state my assumptions and just let the judges know how I could've 
 improved this data if I had access to FDR. 
 
-
 Origin Destination (have it in the dataset, but don't really 
 use this to predict anything) 
 just use time, avg. load factor, aircraft type and build the 
@@ -53,3 +52,6 @@ it's not available online. So I gotta do what I gotta do.
 ok, makin progress now, modified the dataset to my needs. This dataset could now be passed 
 to a script, can be cleaned and processed, and then be used to train a linear regression, 
 as I've been trying to do for quite some while now. Lesssgo! 
+
+Alright, there is now about 15 mins left in the submission. I am done with the code. Everything seems to
+done. Model Trained, Readme updated, and this log is now finished as well. 

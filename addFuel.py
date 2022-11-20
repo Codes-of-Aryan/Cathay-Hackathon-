@@ -1,3 +1,11 @@
+#The modified dataset is already present in the 
+#file, NO need to run this file
+# 
+# This file is required to generate the fuel burn 
+# of flights using passengers and distance. In Ideal 
+# scenario if FDR data available, we would have 
+# past records of fuel burn data available, which 
+# would make this calculation unnecessarry.  
 import pandas as pd 
 
 #3.5 per 100 passenger kilometer 

@@ -1,5 +1,8 @@
 # Cathay-Hackathon
-Training a Machine Leaning Model to get accurate Carbon Emissions per passenger per flight. <br> 
+Training a Machine Leaning Model to accuratly predict fuel burn (and thus carbon emissions for each passenger) for a flight trip. <br> 
+
+## Result 
+We are able to train our ML Model to achieve an accuracy of ~ 91%
 
 ## Running Instructions
 - Please run the file train_regression.py to train and see the accuracy of the model. 
@@ -19,7 +22,16 @@ DEPARTURES_PERFORMED,PAYLOAD,SEATS,PASSENGERS,FREIGHT,DISTANCE,RAMP_TO_RAMP,AIR_
 ### FDR DATA NOT AVAIALABLE 
 This is by far the biggest challenge faced during this project. It would be ideal to train a model using real 
 past flight record data, however since this data is not publicly available, there had to be some adjustments made:
-(P.S. If you wanna see how much I struggled acquiring a dataset, look at the logs)  
+(P.S. If you wanna see how much I struggled acquiring a dataset, look at log.md)  
 - Couldn't account for the Aircraft Model (Since the particular database does not disclose that info)
-- However there is an aircraft group which helps 
-- The Target variable, i.e, Fuel Burn was estimated using a formula used in addFuel.py (Ideally, using FDR data would make this redundant and allow us to even more accurately predict carbon emissions)
+- However, there is an aircraft group (divided by engine type) which helps 
+- The Target variable, i.e, Fuel Burn was estimated using a formula used in addFuel.py (Ideally, using FDR data would make this redundant and allow us to increase the accuracy of our model in predicting carbon emissions)
+
+## Further Potential Improvements 
+With the availability of FDR, many further improvements can be made by improving feature selection. It would allow 
+us to do many things such as: 
+- Take weather factors such as wind speed, temperature, pressure into account 
+- Get exact payload details 
+- Take efficiency of different aircrafts into account (for ex. A new Airbus A350 is bound to be more efficient compared to an aircraft that has been in service for more than 10 years)
+
+These factors should increase the accuracy further. 
