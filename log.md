@@ -24,7 +24,7 @@ I need like flight data, mp like fdr of a lot of like real life flights
 
 kaggle so far has been a dead end, no useful data on there. not for this task anyway. So either 
 FDR or maybe it might be worth looking into the datasets used by a lot of the research papers
-that I'm planning to cite. <br> <br>
+that I'm planning to cite. 
 
 Ok another dead end. I can't seem to find any FDR online. I've spent about 3-4 hours now at this point 
 trying to find out datasets and nothing seems to be a match for what I'm trying to achieve.
