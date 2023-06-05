@@ -55,3 +55,5 @@ as I've been trying to do for quite some while now. Lesssgo!
 
 Alright, there is now about 15 mins left in the submission. I am done with the code. Everything seems to
 done. Model Trained, Readme updated, and this log is now finished as well. 
+
+UPDATE (5/6/23, 7 Months After): If anyone's reading this, why? 
