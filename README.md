@@ -2,10 +2,10 @@
 Training a Machine Leaning Model to accuratly predict fuel burn (and thus carbon emissions for each passenger) for a flight trip. <br> 
 
 ## Result 
-We are able to train our ML Model to achieve an accuracy of ~ 91%
+Model accuracy of ~ 91%
 
 ## Running Instructions
-- Please run the file train_regression.py to train and see the accuracy of the model. 
+- Run the file train_regression.py to train and see the accuracy of the model. 
 
 ## Dataset 
 Data taken from the US bureau of statistics
@@ -22,8 +22,8 @@ DEPARTURES_PERFORMED,PAYLOAD,SEATS,PASSENGERS,FREIGHT,DISTANCE,RAMP_TO_RAMP,AIR_
 ### FDR DATA NOT AVAIALABLE 
 This is by far the biggest challenge faced during this project. It would be ideal to train a model using real 
 past flight record data, however since this data is not publicly available, there had to be some adjustments made:
-(P.S. If you wanna see how much I struggled acquiring a dataset, look at log.md)  
-- Couldn't account for the Aircraft Model (Since the particular database does not disclose that info)
+ 
+- Couldn't account for the Aircraft Model.
 - However, there is an aircraft group (divided by engine type) which helps 
 - The Target variable, i.e, Fuel Burn was estimated using a formula used in addFuel.py (Ideally, using FDR data would make this redundant and allow us to increase the accuracy of our model in predicting carbon emissions)
 
